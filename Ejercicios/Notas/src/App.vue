@@ -7,7 +7,7 @@
   </form>
   <div>
   <ul>
-    <li v-for="(nota,index) in notas" @key="nota.id">
+    <li v-for="(nota,index) in notas" :key="nota.id">
       <input type="text" v-model="nota.name" disabled></input>
       <button @click="editNote(index)">Editar</button>
       <button @click="deleteNote(index)">Eliminar</button>
