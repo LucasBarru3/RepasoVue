@@ -1,10 +1,11 @@
 <template>
-  
+<PostDetail v-for="post in posts" :key="post.title" :title="post.title" :content="post.contenido"></PostDetail>
 </template>
 
 <script setup>
 import { ref } from 'vue'
-const posts = red([{
+import PostDetail from './PostDetail.vue'
+const posts = ref([{
   title: 'titulo1',
   contenido: 'content1'
 },
