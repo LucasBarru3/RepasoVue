@@ -4,15 +4,14 @@
   
   
 const taskStore = useTaskStore();
-const { tasks, totalTasks}  = taskStore;
+const { tasks, totalTasks, completedTasks, pendingTasks}  = taskStore;
 </script>
 
 <template>
-  <p>{{ totalTasks }}</p>
+  <p>Tareas Totales: {{ totalTasks }}</p>
+  <p>Tareas Completadas {{ completedTasks.length }}</p>
+  <p>Tareas Pendientes {{ pendingTasks.length }}</p>
   <ul>
-    <li v-for="task in tasks" :key="task.id">
-      {{ task.text }}
-    </li>
   </ul>
 </template>
 
