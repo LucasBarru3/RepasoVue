@@ -2,14 +2,14 @@
     <div>
       <h1>Detalles del Producto</h1>
       <p>ID: {{ id }}</p>
-      <p>Nombre: {{ product?.name || 'Producto no encontrado' }}</p>
-      <router-link to="/ProductList">Volver a la lista</router-link>
+      <p>Nombre: {{ product?.name }}</p>
+      <RouterLink to="/ProductList">Volver a la Lista</RouterLink>
     </div>
   </template>
   
   <script setup>
   import { ref, onMounted } from 'vue';
-  import { useRoute } from 'vue-router';
+  import { RouterLink, useRoute } from 'vue-router';
   
   const route = useRoute();
   const id = route.params.id;

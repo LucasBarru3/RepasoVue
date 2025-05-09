@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'
+import { RouterLink } from 'vue-router';
 const products = ref([
     { id: 1, name: 'Producto 1' },
     { id: 2, name: 'Producto 2' },
@@ -11,8 +12,9 @@ const products = ref([
 <template>
 <ul>
     <li v-for="product in products">
-        <router-link :to="'/ProductDetail/' + product.id">{{ product.name }}</router-link>
+        <RouterLink :to="'/ProductDetail/' + product.id">{{ product.name }}</RouterLink>
     </li>
+    <RouterLink to="/AddProduct">Añadir Producto</RouterLink>
 </ul>
 </template>
 
