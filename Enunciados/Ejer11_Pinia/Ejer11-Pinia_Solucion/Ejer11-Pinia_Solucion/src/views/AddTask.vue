@@ -1,8 +1,8 @@
 <template>
     <div>
       <h2>Agregar Tarea</h2>
-      <input v-model="newTask" placeholder="Escribe una tarea" />
-      <button @click="addNewTask">Añadir</button>
+      <input v-model="newTask" @keyup.enter="addNewTask()" placeholder="Escribe una tarea" />
+      <button @click="addNewTask()">Añadir</button>
       <router-link to="/">Volver al inicio</router-link>
     </div>
   </template>
