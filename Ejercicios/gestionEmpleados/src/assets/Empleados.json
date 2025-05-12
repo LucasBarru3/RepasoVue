@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "name": "Jon Pérez",
+      "department": "Desarrollo",
+      "salary": 3000
+    },
+    {
+      "id": 2,
+      "name": "Ane Gómez",
+      "department": "Diseño",
+      "salary": 2500
+    },
+    {
+      "id": 3,
+      "name": "Carlos Ruiz",
+      "department": "Desarrollo",
+      "salary": 3200
+    }
+  ]
