@@ -1,12 +1,39 @@
-import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 
-export const useCounterStore = defineStore('counter', () => {
-  const count = ref(0)
-  const doubleCount = computed(() => count.value * 2)
-  function increment() {
-    count.value++
+export const useTrivialStore = defineStore('useTrivialStore', {
+  state: () => ({
+    juego: {}, // datos recibidos de la API
+    currentQuestionIndex: 0,
+    score: 0,
+  }),
+  getters: {
+    preguntas: (state) => {
+      return (state.juego.results || []).map(q => ({
+        question: atob(q.question),
+        correct_answer: atob(q.correct_answer),
+        incorrect_answers: q.incorrect_answers.map(ans => atob(ans))
+      }));
+    },
+    totalQuestions: (state) => {
+      return state.preguntas.length;
+    }
+  },
+  actions: {
+    setJuego(data) {
+      this.juego = data;
+      this.currentQuestionIndex = 0;
+      this.score = 0;
+    },
+    submitAnswer(correct) {
+      if (correct) {
+        this.score++;
+      }
+      this.currentQuestionIndex++;
+    },
+    reset() {
+      this.juego = {};
+      this.currentQuestionIndex = 0;
+      this.score = 0;
+    }
   }
-
-  return { count, doubleCount, increment }
 })
