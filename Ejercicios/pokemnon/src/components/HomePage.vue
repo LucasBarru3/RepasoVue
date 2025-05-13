@@ -77,7 +77,6 @@ onMounted(getPokemons)
           <td>{{ pokemon.name }}</td>
           <td>{{ pokemon.type }}</td>
           <td>{{ pokemon.ability }}</td>
-          <td><button @click="deletePokemon(index)">Borrar</button></td>
         </tr>
       </tbody>
     </table>
@@ -88,5 +87,24 @@ onMounted(getPokemons)
       <input type="text" v-model="ability" placeholder="Habilidad" required />
       <button type="submit">Agregar Pokémon</button>
     </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Tipo</th>
+          <th>Habilidad</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="(pokemon, index) in pokemones.results" :key="index">
+          <td>{{ pokemon.name }}</td>
+          <td>{{ pokemon.type }}</td>
+          <td>{{ pokemon.ability }}</td>
+          <td><button @click="deletePokemon(index)">Borrar</button></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </template>
