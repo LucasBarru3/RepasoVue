@@ -15,6 +15,8 @@ onMounted(() => {
     <span> Municipio: {{festividad.municipio}} </span>
     <span> Fecha: {{festividad.fecha}} </span>
     Asistido: <input type="checkbox" :checked="festividad.asistido" @change="pinia.cambiarAsistido(festividad.id)"/>
+    <button @click="pinia.borrarFestividad(festividad.id)">Borrar</button>
   </li>
+  <span>{{pinia.getPresupuestoPromedio}}</span>
 </ul>
 </template>

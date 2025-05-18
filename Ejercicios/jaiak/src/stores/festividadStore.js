@@ -21,8 +21,10 @@ export const usefestividadStore = defineStore('usefestividadStore', {
       if (festividad) {
         festividad.asistido = !festividad.asistido
       }
+    },
+    borrarFestividad(Id){
+        this.festividades = this.festividades.filter((festividad) => festividad.id != Id) 
     }
-
   },
   getters:{
     getProximasFestividades: (state) => {
@@ -48,7 +50,12 @@ export const usefestividadStore = defineStore('usefestividadStore', {
       })
       const maxFestividades = Math.max(...Object.values(municipios))
       return Object.keys(municipios).filter(m => municipios[m] === maxFestividades)
-    }
+    },
+    getPresupuestoPromedio : (state) => {
+      const presupuestosTotales = state.festividades.reduce((promedioTotal, festividad)=> promedioTotal+festividad.presupuesto,0 )
+      const calculo = presupuestosTotales / state.festividades.length;
+      return calculo.toFixed(2);
+    },
   }
 
 })
