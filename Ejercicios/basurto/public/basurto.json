@@ -1,0 +1,554 @@
+[
+ {
+   "SERVICIO": "Admisión General",
+   "ENTRADA": "Arrupe",
+   "ICONO": "tarjeta-de-identificacion.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Alergología (Hospitalización)",
+   "ENTRADA": "Aztarain",
+   "ICONO": "alergias.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Anatomía patológica",
+   "ENTRADA": "Anatomía patológica",
+   "ICONO": "microscopio.png ",
+   "MOSTRAR": null
+ },
+ {
+   "SERVICIO": "Archivos",
+   "ENTRADA": "Arrupe",
+   "ICONO": "material-de-oficina.png",
+   "MOSTRAR": null
+ },
+ {
+   "SERVICIO": "Asistencia Social",
+   "ENTRADA": "Arrupe",
+   "ICONO": "asistencia-social.png",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Banco de sangre / Unidad Transfusional",
+   "ENTRADA": "Gurtubay",
+   "ICONO": "sangre.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Cafetería, prensa, peluquería y cajeros",
+   "ENTRADA": "Arrupe",
+   "ICONO": "taza-de-cafe.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Capilla",
+   "ENTRADA": "Iturrizar",
+   "ICONO": "religion.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Central telefónica",
+   "ENTRADA": "Gobierno (9b)",
+   "ICONO": "telefono.png ",
+   "MOSTRAR": null
+ },
+ {
+   "SERVICIO": "Compras",
+   "ENTRADA": "Gobierno (9a)",
+   "ICONO": "tienda-online.png ",
+   "MOSTRAR": null
+ },
+ {
+   "SERVICIO": "Consultas",
+   "ENTRADA": "Arrupe",
+   "ICONO": "consulta.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Consultas de Aparato Digestivo",
+   "ENTRADA": "Revilla",
+   "ICONO": "estomago.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Consultas de Nefrología",
+   "ENTRADA": "Jado hemodiálisis",
+   "ICONO": "rinon.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Consultas de Neurologia y Rehabilitación",
+   "ENTRADA": "Ampuero",
+   "ICONO": "nervios.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Cuidados Intermedios de Pediatría",
+   "ENTRADA": "San Pelayo",
+   "ICONO": "pediatria.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Diálisis",
+   "ENTRADA": "Jado hemodiálisis",
+   "ICONO": "rinon.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Dirección de enfermería",
+   "ENTRADA": "Gobierno (9b)",
+   "ICONO": "equipo-medico.png ",
+   "MOSTRAR": null
+ },
+ {
+   "SERVICIO": "Dirección de personal",
+   "ENTRADA": "Gobierno (9b)",
+   "ICONO": "equipo-medico.png ",
+   "MOSTRAR": null
+ },
+ {
+   "SERVICIO": "Dirección Económica Financiera",
+   "ENTRADA": "Gobierno (9a)",
+   "ICONO": "analisis-de-mercado.png ",
+   "MOSTRAR": null
+ },
+ {
+   "SERVICIO": "Dirección Integración Asistencial",
+   "ENTRADA": "Gobierno (9a)",
+   "ICONO": "equipo-medico.png ",
+   "MOSTRAR": null
+ },
+ {
+   "SERVICIO": "Dirección médica",
+   "ENTRADA": "Gobierno (9b)",
+   "ICONO": "equipo-medico.png ",
+   "MOSTRAR": null
+ },
+ {
+   "SERVICIO": "Documentación",
+   "ENTRADA": "Areilza",
+   "ICONO": "documentacion.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Ecografías / Zona DOPLER ECO TAC local: Ecografía",
+   "ENTRADA": "Ampuero rayos",
+   "ICONO": "ecografia.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Electrofisiología",
+   "ENTRADA": "Allende",
+   "ICONO": "electrofisiologia.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Endocrinología (Hospitalización)",
+   "ENTRADA": "Aztarain",
+   "ICONO": "endocrino.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Endoscopias",
+   "ENTRADA": "Revilla",
+   "ICONO": "icons8-endoscopy-64.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Esterilización",
+   "ENTRADA": "Areilza",
+   "ICONO": "esterelizacion.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Euskera",
+   "ENTRADA": "Gobierno (9b)",
+   "ICONO": "idioma.png ",
+   "MOSTRAR": null
+ },
+ {
+   "SERVICIO": "Exploraciones de Neumología",
+   "ENTRADA": "Revilla",
+   "ICONO": "pulmon.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Extracciones",
+   "ENTRADA": "Arrupe",
+   "ICONO": "pinzas.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Gerencia",
+   "ENTRADA": "Gobierno (9a)",
+   "ICONO": "personas.png ",
+   "MOSTRAR": null
+ },
+ {
+   "SERVICIO": "Gimnasio",
+   "ENTRADA": "Ampuero",
+   "ICONO": "gimnasio.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Hematología (Consultas)",
+   "ENTRADA": "Aztarain",
+   "ICONO": "hematologia.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Hematología (Hospitalización)",
+   "ENTRADA": "Aztarain",
+   "ICONO": "hematologia.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Hemodinámica",
+   "ENTRADA": "Allende",
+   "ICONO": "hemodinamica.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Hospital de Día Médico",
+   "ENTRADA": "Aztarain",
+   "ICONO": "hospital.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Hospitalización a Domicilio",
+   "ENTRADA": "Makua puerta principal",
+   "ICONO": "hospital2.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Hospitalización C. Maxilofacial y C. Plástica",
+   "ENTRADA": "Iturrizar",
+   "ICONO": "marcado-facial.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Hospitalización de Aparato Digestivo,",
+   "ENTRADA": "Revilla",
+   "ICONO": "estomago.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Hospitalización de Cardiología, C. Cardiaca y C. Vascular",
+   "ENTRADA": "Allende",
+   "ICONO": "corazon.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Hospitalización de Cirugía General, Urología y Nefrología",
+   "ENTRADA": "Jado puerta principal",
+   "ICONO": "rinon.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Hospitalización de Neurología y Neurocirugía",
+   "ENTRADA": "Ampuero",
+   "ICONO": "nervios.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Hospitalización Ginecología y Obstetricia",
+   "ENTRADA": "Iturrizar",
+   "ICONO": "utero.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Hospitalización ORL y Oftalmología",
+   "ENTRADA": "Iturrizar",
+   "ICONO": "globo-ocular.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Información",
+   "ENTRADA": "Arrupe",
+   "ICONO": "informacion.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Informática",
+   "ENTRADA": "Gobierno (9a)",
+   "ICONO": "ordenador-portatil.png ",
+   "MOSTRAR": null
+ },
+ {
+   "SERVICIO": "Laboratorio vascular",
+   "ENTRADA": "Allende",
+   "ICONO": "vascular.png ",
+   "MOSTRAR": null
+ },
+ {
+   "SERVICIO": "Laboratorios",
+   "ENTRADA": "Gurtubay",
+   "ICONO": "experimentar.png ",
+   "MOSTRAR": null
+ },
+ {
+   "SERVICIO": "Mantenimiento",
+   "ENTRADA": "Areilza",
+   "ICONO": "mantenimiento.png ",
+   "MOSTRAR": null
+ },
+ {
+   "SERVICIO": "Medicina Nuclear",
+   "ENTRADA": "Gobierno (Rayos y Medicina Nuclear)",
+   "ICONO": "fusion.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Oncología (Consultas)",
+   "ENTRADA": "Aztarain",
+   "ICONO": "oncologia.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Oncología (Hospitalización)",
+   "ENTRADA": "Aztarain",
+   "ICONO": "oncologia.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Pediatría: hospitalización, hospital de dia y",
+   "ENTRADA": "San Pelayo",
+   "ICONO": "pediatria.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Pruebas de Cardiología y C.Vascular",
+   "ENTRADA": "Allende",
+   "ICONO": "corazon.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Psiquiatría",
+   "ENTRADA": "Escuza",
+   "ICONO": "psiquiatria.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Quirófanos",
+   "ENTRADA": "Areilza",
+   "ICONO": "cirujano.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Quirófanos",
+   "ENTRADA": "Makua puerta principal",
+   "ICONO": "cirujano.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Radiodiagnóstico / Rayos X",
+   "ENTRADA": "Gobierno (Rayos y Medicina Nuclear)",
+   "ICONO": "rayos-x.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Radiología intervencionista (Angiógrafo)",
+   "ENTRADA": "Gobierno (Angiografia)",
+   "ICONO": "rayos-x2.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Radioterapia: consultas y tratamiento",
+   "ENTRADA": "San Vicente",
+   "ICONO": "radioterapia.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Reanimación",
+   "ENTRADA": "Areilza",
+   "ICONO": "cpr.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Reanimación Cardiaca (REACAR)",
+   "ENTRADA": "Areilza",
+   "ICONO": "rcp.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Registro de nacimientos",
+   "ENTRADA": "Arrupe",
+   "ICONO": "recien-nacido.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Rehabilitación Cardiaca",
+   "ENTRADA": "Ampuero",
+   "ICONO": "corazon.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Rehabilitación Respiratoria",
+   "ENTRADA": "Ampuero",
+   "ICONO": "pulmon.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Resonancia Magnética",
+   "ENTRADA": "Ampuero rayos",
+   "ICONO": "tac.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Reumatología (Hospitalización)",
+   "ENTRADA": "Aztarain",
+   "ICONO": "reumatologia.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Salón de Actos (Sala Gorbeia)",
+   "ENTRADA": "Gobierno (9a)",
+   "ICONO": "conferencia.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "SAPU (Atención al Paciente)",
+   "ENTRADA": "Arrupe",
+   "ICONO": "hospitalizacion.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Scanner - TAC",
+   "ENTRADA": "Ampuero rayos",
+   "ICONO": "tac.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Traumatología (Hospitalización)",
+   "ENTRADA": "Gandarias",
+   "ICONO": "huesos.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "UCPI",
+   "ENTRADA": "Areilza",
+   "ICONO": "hospitalizacion.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "UCSI",
+   "ENTRADA": "Areilza",
+   "ICONO": "hospitalizacion.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Unidad coronaria",
+   "ENTRADA": "Allende",
+   "ICONO": "intervencion-coronaria-percutanea.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Unidad de Calidad",
+   "ENTRADA": "Gobierno (9b)",
+   "ICONO": "calidad.png ",
+   "MOSTRAR": null
+ },
+ {
+   "SERVICIO": "Unidad de Comunicación",
+   "ENTRADA": "Gobierno (9b)",
+   "ICONO": "altoparlante.png ",
+   "MOSTRAR": null
+ },
+ {
+   "SERVICIO": "Unidad de Corta Estancia",
+   "ENTRADA": "Jado puerta principal",
+   "ICONO": "hospitalizacion.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Unidad de Docencia e Investigación",
+   "ENTRADA": "Jado puerta principal",
+   "ICONO": "cientifico.png ",
+   "MOSTRAR": null
+ },
+ {
+   "SERVICIO": "Unidad de ELA",
+   "ENTRADA": "Ampuero",
+   "ICONO": "cerebro.png ",
+   "MOSTRAR": null
+ },
+ {
+   "SERVICIO": "Unidad de Electroterapia",
+   "ENTRADA": "Ampuero",
+   "ICONO": "electrodo.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Unidad de Ictus",
+   "ENTRADA": "Ampuero",
+   "ICONO": "cerebro.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Unidad de Nutrición",
+   "ENTRADA": "Areilza",
+   "ICONO": "nutricion.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Unidad del Dolor (Consultas)",
+   "ENTRADA": "Aztarain",
+   "ICONO": "dolor.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Unidad Infanto Juvenil",
+   "ENTRADA": "Escuza",
+   "ICONO": "infantojuvenil.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Unidad Neonatal",
+   "ENTRADA": "Iturrizar",
+   "ICONO": "recien-nacido.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Unidad Penitenciaria",
+   "ENTRADA": "Jado puerta principal",
+   "ICONO": "prision.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "Unidad Radiológica de mama",
+   "ENTRADA": "San José",
+   "ICONO": "amamantamiento.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "URGENCIAS DE PEDIATRÍA",
+   "ENTRADA": "Makua urgencias",
+   "ICONO": "pediatria.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "URGENCIAS GENERALES",
+   "ENTRADA": "Makua urgencias",
+   "ICONO": "emergencia.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "URGENCIAS GINECOLÓGICAS Y PARTOS",
+   "ENTRADA": "Iturrizar",
+   "ICONO": "emergencia.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "URPA",
+   "ENTRADA": "Areilza",
+   "ICONO": "anestesia.png ",
+   "MOSTRAR": 1
+ },
+ {
+   "SERVICIO": "URPA",
+   "ENTRADA": "Makua puerta principal",
+   "ICONO": "anestesia.png ",
+   "MOSTRAR": 1
+ }
+]
