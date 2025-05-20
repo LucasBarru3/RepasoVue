@@ -22,9 +22,9 @@ const filtrado = computed(() =>
 
 <template>
   <h1>Hospital Basurto</h1>
-
+  Total de servicios: {{ pinia.getServiciosVisibles.length }}
   <input type="text" v-model="filtro" placeholder="Buscar servicio…" />
-
+ 
   <table>
     <thead>
       <tr>
