@@ -4,6 +4,8 @@
         <RouterLink to="/proximas" class="nav-link">Proximas</RouterLink>
         <RouterLink to="/estadisticas" class="nav-link">Estadisticas</RouterLink>
         <RouterLink to="/filtrado" class="nav-link">Filtrado</RouterLink>
+        <RouterLink to="/festividadesAsistidas" class="nav-link">Festividades Asistidas</RouterLink>
+        <RouterLink to="/festividadesExtra" class="nav-link">Festividades Extras</RouterLink>
     </nav>
 </template>
 

@@ -3,6 +3,8 @@ import HomePage from '../components/HomePage.vue'
 import ProximasPage from '../components/ProximasPage.vue'
 import EstadisticasPage from '../components/EstadisticasPage.vue'
 import FiltradoFestividades from '@/components/FiltradoFestividades.vue'
+import FestividadesAsistidas from '@/components/FestividadesAsistidas.vue'
+import FestividadesExtra from '@/components/FestividadesExtra.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -24,6 +26,14 @@ const router = createRouter({
     {
       path: '/filtrado',
       component: FiltradoFestividades,
+    },
+    {
+      path: '/festividadesAsistidas',
+      component: FestividadesAsistidas
+    },
+    {
+      path: '/festividadesExtra',
+      component: FestividadesExtra
     }
   ],
 })

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Veterinaria - Registro</title>
+</head>
+<body>
+  <h1>Registrar Animal</h1>
+  <form id="form-animal">
+    <label>Nombre:
+      <input type="text" name="nombre" required>
+    </label><br>
+
+    <label>Especie:
+      <select name="especie" id="select-especie" required>
+      </select>
+    </label><br>
+
+    <label>Edad:
+      <input type="number" name="edad" required min="0">
+    </label><br>
+
+    <label>Urgente:
+      <input type="checkbox" name="urgente">
+    </label><br>
+
+    <button type="submit">Registrar</button>
+    <button type="button" id="btn-limpiar">Limpiar lista</button>
+  </form>
+
+  <h2>Lista de Animales Registrados</h2>
+  <ul id="lista-animales"></ul>
+
+  <script type="module" src="validar.js"></script>
+</body>
+</html>

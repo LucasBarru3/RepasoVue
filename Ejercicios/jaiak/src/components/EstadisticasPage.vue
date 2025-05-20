@@ -11,7 +11,8 @@ onMounted(() => {
   <div>
     <h2>Estadísticas</h2>
     <p>Total de festividades: {{ pinia.getTotalFestividades }}</p>
-    <span>Festividades Asistidas: {{ pinia.getFestividadesAsistidas }}</span>
+    <span>Presupuesto medio: {{pinia.getPresupuestoPromedio}}</span>
+    <span>Festividades Asistidas: {{ pinia.getFestividadesAsistidasNum }}</span>
     <p>Municipios que tienen más de una festividad: </p>
     <ul>
       <li v-for="municipio in pinia.getMunicipiosmasFestividades" :key="municipio">

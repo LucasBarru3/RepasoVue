@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Reserva Deportiva</title>
+  <script defer src="Reserva.js"></script>
+  <script defer src="main.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .error { color: red; }
+    table, th, td { border: 1px solid black; border-collapse: collapse; padding: 8px; }
+  </style>
+</head>
+<body>
+  <h1>Gestión de Reservas Deportivas</h1>
+  <div id="reloj"></div>
+
+  <form id="formulario">
+    <label>Nombre: <input type="text" id="nombre" required></label> <span id="errorNombre" class="error"></span><br><br>
+    <label>Hora: <input type="time" id="hora" required></label> <span id="errorHora" class="error"></span><br><br>
+
+    <label>Tipo de pista:
+      <select id="pista"></select>
+    </label><br><br>
+
+    <label><input type="checkbox" id="notificaciones"> ¿Desea recibir notificaciones?</label><br><br>
+
+    <button type="submit">Reservar</button>
+    <button type="button" id="limpiar">Limpiar reservas</button>
+    <button type="button" id="consultar">Consultar disponibilidad</button>
+  </form>
+
+  <div id="mensaje"></div>
+  <div id="resultado"></div>
+
+  <h2>Reservas registradas</h2>
+  <table id="tabla">
+    <thead>
+      <tr><th>Nombre</th><th>Hora</th><th>Pista</th><th>Notificaciones</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</body>
+</html>
