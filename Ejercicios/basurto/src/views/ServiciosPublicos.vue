@@ -5,7 +5,7 @@ import { serviciosStore } from '@/stores/serviciosStore.js'
 const pinia = serviciosStore()
 
 onMounted(() => {
- pinia.cargarServicios?.()
+ pinia.cargarServicios()
 })
 
 const filtro = ref('')
@@ -14,7 +14,7 @@ const filtrado = computed(() =>
   pinia.getServiciosVisibles          // array filtrado del getter
     .filter(s => {
       // `s.SERVICIO` podría ser undefined hasta que llegue la respuesta
-      const nombre = s?.SERVICIO?.toString().toLowerCase() || ''
+      const nombre = s.SERVICIO.toString().toLowerCase() || ''
       return nombre.includes(filtro.value.toLowerCase())
     })
 )
