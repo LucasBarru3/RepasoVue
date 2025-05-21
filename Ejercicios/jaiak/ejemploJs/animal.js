@@ -6,19 +6,37 @@ export class Animal {
     this.urgente = urgente;
   }
 
-  getNombre() { return this.nombre; }
-  setNombre(n) { this.nombre = n; }
+  getNombre() {
+    return this.nombre;
+  }
+  setNombre(n) {
+    this.nombre = n;
+  }
 
-  getEspecie() { return this.especie; }
-  setEspecie(e) { this.especie = e; }
+  getEspecie() {
+    return this.especie;
+  }
+  setEspecie(e) {
+    this.especie = e;
+  }
 
-  getEdad() { return this.edad; }
-  setEdad(edad) { this.edad = edad; }
+  getEdad() {
+    return this.edad;
+  }
+  setEdad(edad) {
+    this.edad = edad;
+  }
 
-  getUrgente() { return this.urgente; }
-  setUrgente(u) { this.urgente = u; }
+  getUrgente() {
+    return this.urgente;
+  }
+  setUrgente(u) {
+    this.urgente = u;
+  }
 
   mostrar() {
-    return `${this.nombre} – ${this.especie}, ${this.edad} años – ${this.urgente ? "Urgente" : "No urgente"}`;
+    return `${this.nombre} – ${this.especie}, ${this.edad} años – ${
+      this.urgente ? "Urgente" : "No urgente"
+    }`;
   }
 }

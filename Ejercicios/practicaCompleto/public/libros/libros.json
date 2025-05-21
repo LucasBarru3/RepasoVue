@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "titulo": "El guardián entre el centeno",
+    "autor": "J.D. Salinger",
+    "publicacion": "1951-07-16"
+  },
+  {
+    "id": 2,
+    "titulo": "Cien años de soledad",
+    "autor": "Gabriel García Márquez",
+    "publicacion": "1967-05-30"
+  },
+  {
+    "id": 3,
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "publicacion": "1949-06-08"
+  },
+  {
+    "id": 4,
+    "titulo": "Crónica de una muerte anunciada",
+    "autor": "Gabriel García Márquez",
+    "publicacion": "1981-03-05"
+  },
+  {
+    "id": 5,
+    "titulo": "Rayuela",
+    "autor": "Julio Cortázar",
+    "publicacion": "1963-06-28"
+  },
+  {
+    "id": 6,
+    "titulo": "Don Quijote de la Mancha",
+    "autor": "Miguel de Cervantes",
+    "publicacion": "1605-01-16"
+  },
+  {
+    "id": 7,
+    "titulo": "Fahrenheit 451",
+    "autor": "Ray Bradbury",
+    "publicacion": "1953-10-19"
+  },
+  {
+    "id": 8,
+    "titulo": "La sombra del viento",
+    "autor": "Carlos Ruiz Zafón",
+    "publicacion": "2001-04-12"
+  },
+  {
+    "id": 9,
+    "titulo": "El nombre de la rosa",
+    "autor": "Umberto Eco",
+    "publicacion": "1980-09-01"
+  },
+  {
+    "id": 10,
+    "titulo": "Los pilares de la Tierra",
+    "autor": "Ken Follett",
+    "publicacion": "1989-09-01"
+  },
+  {
+    "id": 11,
+    "titulo": "Pedro Páramo",
+    "autor": "Juan Rulfo",
+    "publicacion": "1955-03-19"
+  },
+  {
+    "id": 12,
+    "titulo": "La tregua",
+    "autor": "Mario Benedetti",
+    "publicacion": "1960-06-15"
+  },
+  {
+    "id": 13,
+    "titulo": "El amor en los tiempos del cólera",
+    "autor": "Gabriel García Márquez",
+    "publicacion": "1985-09-05"
+  },
+  {
+    "id": 14,
+    "titulo": "Ensayo sobre la ceguera",
+    "autor": "José Saramago",
+    "publicacion": "1995-03-20"
+  },
+  {
+    "id": 15,
+    "titulo": "La ciudad y los perros",
+    "autor": "Mario Vargas Llosa",
+    "publicacion": "1963-02-20"
+  },
+  {
+    "id": 16,
+    "titulo": "Libro1",
+    "autor": "Mario Vargas Llosa",
+    "publicacion": "1963-02-20"
+  },
+  {
+    "id": 17,
+    "titulo": "Libro2",
+    "autor": "Mario Vargas Llosa",
+    "publicacion": "1963-02-20"
+  }
+]
